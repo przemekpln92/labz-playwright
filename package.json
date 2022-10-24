@@ -1,0 +1,21 @@
+{
+  "name": "labz-playwright",
+  "version": "1.0.0",
+  "description": "\"# labz-playwright\"",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przemekpln92/labz-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/przemekpln92/labz-playwright/issues"
+  },
+  "homepage": "https://github.com/przemekpln92/labz-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
