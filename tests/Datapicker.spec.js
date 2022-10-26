@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test')
 const {POManager} = require('../pageobjects/POManager')
 
-test.only('Date', async ({page})=>
+test('Date', async ({page})=>
 {   
     const poManager = new POManager(page);
     const datapickerPage = poManager.getDatapickerPage()
