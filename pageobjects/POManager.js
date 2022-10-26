@@ -1,5 +1,6 @@
 const {ContactUsPage} = require('./ContactUsPage');
 const {DropCheckRadioPage} = require('./DropCheckRadioPage');
+const {DatapickerPage} = require('./DatapickerPage');
 class POManager
 {
 constructor(page)
@@ -7,6 +8,7 @@ constructor(page)
     this.page = page;
     this.contactUsPage = new ContactUsPage(this.page);
     this.dropCheckRadioPage = new DropCheckRadioPage(this.page);
+    this.datapickerPage = new DatapickerPage(this.page);
 
 }
 
@@ -18,6 +20,11 @@ getContactUsPage()
 getDropCheckRadioPage()
 {
     return this.dropCheckRadioPage;
+}
+
+getDatapickerPage()
+{
+    return this.datapickerPage;
 }
 
 }
